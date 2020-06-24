@@ -47,6 +47,9 @@ body{
 .pg-border{
     border: solid 1px #5230DB;
 }
+.dropdown-toggle::after {
+    color: #5230DB;
+}
 .page-footer{
     background: #3C3C3C;
     color: white;
@@ -250,4 +253,7 @@ input[type="range"] {
 
 [disabled].noUi-origin,[disabled] .noUi-handle {
     cursor: not-allowed;
+}
+.flip:hover{
+    transform: rotateX(180deg);
 }
